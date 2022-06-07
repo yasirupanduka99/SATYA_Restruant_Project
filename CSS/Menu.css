@@ -1,0 +1,344 @@
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: myPeacesAndCreamFont;
+    src: url(../Fonts/Peaches_and_Cream_Regular.otf);
+}
+
+.header_container {
+    background-color: #A9E5B1;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 1;
+}
+
+.headerSector {
+    display: inline;
+}
+
+.Logo {
+    font-family: myPeacesAndCreamFont;
+    font-size: 3em;
+    color: #000000;
+    width: max-content;
+    display: inline;
+    margin-left: 20px;
+}
+
+#buttonContainer {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#buttonContainer a {
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#buttonContainer a:hover {
+    color: rgb(116, 116, 116);
+}
+
+
+
+
+
+.categoryContainer {
+    background-color: #c2c2c2;
+    position: fixed;
+    width: 320px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.categoryContainer h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.categoryContainer button {
+    margin: 05px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.categoryContainer button:hover {
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.categoryContainer img {
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 05px;
+    margin-bottom: 05px;
+}
+
+
+
+
+
+
+
+.cartmenuContainer {
+    background-color: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+
+
+
+
+.cartContainer {
+    background-color: #c2c2c2;
+    width: 460px;
+    height: max-content;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.cartContainer h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.cartContainer table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cartContainer td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    text-align: center;
+}
+
+.cartContainer h3 {
+    font-weight: 800;
+}
+
+.purchaseBtn {
+    width: 200px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: #0c77a1;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.purchaseBtn:hover {
+    background-color: #0a678b;
+    cursor: pointer;
+}
+
+.btnRemove {
+    width: 120px;
+    height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: #e70b0b;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.btnRemove:hover {
+    background-color: #b90b0b;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.MenuContainer {
+    background-color: none;
+    width: 100%;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.menu {
+    background-color: #daf5dd;
+    width: 100%;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.menu h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.menu h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#foodname {
+    width: 83%;
+    background-color: none;
+}
+
+#cartBtn button {
+    width: 100px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: #0ca15b;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+#cartBtn button:hover {
+    background-color: #0b8a4e;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.endingcontainer {
+    background-color: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+.endingcontainer img {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.endingcontainer table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.openingHours {
+    width: 400px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.endingcontainer h3 {
+    font-size: 1.6em;
+}
+
+.timeTable td {
+    width: 400px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.location{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.socialMedia {
+    background-color: nonered;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.socialMedia table {
+    background-color: none;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.socialMedia img {
+    width: 100px;
+}
+
+.socialMedia h2 {
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.footer_container {
+    background-color: #A9E5B1;
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.footerSector {
+    display: inline;
+}
+
+.footerLogo {
+    font-family: myPeacesAndCreamFont;
+    font-size: 3em;
+    color: #000000;
+    width: max-content;
+    display: inline;
+    margin-left: 20px;
+}
