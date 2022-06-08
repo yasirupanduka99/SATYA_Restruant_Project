@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Booking.css">
+    <script src="../JS/Booking.js" async></script>
+
+    <title>Booking a Table</title>
+
+</head>
+
+<body>
+    <!----------------------- Header Implementation -->
+    <div class="header_container">
+        <div class="headerSector">
+            <a href="../Homepage.html">
+                <h1 class="Logo">Satya</h1>
+            </a>
+        </div>
+
+        <div id="buttonContainer" class="headerSector">
+            <a href="../Homepage.html">Home</a> &nbsp; &nbsp; &nbsp;
+            <a href="Booking.html">Book a table</a> &nbsp; &nbsp; &nbsp;
+            <a style="text-decoration: line-through;" href="">Catering</a> &nbsp; &nbsp; &nbsp;
+            <a style="text-decoration: line-through;" href="">Careers</a> &nbsp; &nbsp; &nbsp;
+            <a style="text-decoration: line-through;" href="">Gallery</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-------------------Booking Table Implementing-->
+    <div class="formContainer">
+
+        <h1><u>Book A Table!</u></h1>
+
+        <form class="formList">
+            <label for="name">Enter Name:</label><br>
+            <input class="inputBox" type="text" id="name" name="name" value="" placeholder="Name"><br><br>
+
+            <label for="member">Enter No. of participants:</label><br>
+            <input class="inputBox" type="number" id="member" name="member" value="" placeholder="No. of participants"><br><br>
+
+            <label for="loca">Enter Location:</label><br>
+            <input type="radio" id="Sandringham" name="Location" value="Sandringham">
+            <label class="radioBtn" for="Sandringham">Sandringham</label><br>
+            <input type="radio" id="Ponsonby" name="Location" value="Ponsonby">
+            <label class="radioBtn" for="Ponsonby">Ponsonby</label><br>
+            <input type="radio" id="MountEden" name="Location" value="MountEden">
+            <label class="radioBtn" for="MountEden">Mount Eden</label><br>
+            <input type="radio" id="Kroad" name="Location" value="Kroad">
+            <label class="radioBtn" for="Kroad">K'Road</label><br><br>
+
+            <label for="phone">Enter Phone Number:</label><br>
+            <input class="inputBox" type="text" id="phone" name="phone" value="" placeholder="Phone Number"><br><br>
+
+            <label for="email">Enter Email Address:</label><br>
+            <input class="inputBox" type="email" id="email" name="email" value="" placeholder="Email Address"><br><br><br>
+            <input class="submitBtn" type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <!----------------------- Footer Implementation -->
+    <div class="header_container">
+        <!-- Same Settings As Header -->
+        <div class="headerSector">
+            <a href="../Homepage.html">
+                <h1 class="Logo">Satya</h1>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
